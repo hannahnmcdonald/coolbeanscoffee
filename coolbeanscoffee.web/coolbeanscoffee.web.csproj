@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\coolbeanscoffee.data\coolbeanscoffee.data.csproj" />
+    <ProjectReference Include="..\coolbeanscoffee.services\coolbeanscoffee.services.csproj" />
   </ItemGroup>
 
 </Project>
