@@ -1,11 +1,13 @@
 using System.Collections.Generic;
 using coolbeanscoffee.services;
+using coolbeanscoffee.data;
+using coolbeanscoffee.data.Models;
 
-namespace coolbeansservices.Product {
+namespace coolbeans.services.Product {
     public interface IProductService {
-        List<data.Models.Product> GetAllProducts();
-        data.Models.Product GetProductById(int id);
-        ServiceResponse<data.Models.Product> CreateProduct(data.Models.Product product);
-        ServiceResponse<data.Models.Product> ArchiveProduct(int id);
+        List<coolbeanscoffee.data.Models.Product> GetAllProducts();
+        coolbeanscoffee.data.Models.Product GetProductById(int id);
+        ServiceResponse<coolbeanscoffee.data.Models.Product> CreateProduct(coolbeanscoffee.data.Models.Product product);
+        ServiceResponse<coolbeanscoffee.data.Models.Product> ArchiveProduct(int id);
     }
 }

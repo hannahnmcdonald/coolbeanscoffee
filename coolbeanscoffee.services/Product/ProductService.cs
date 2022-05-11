@@ -2,11 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using coolbeanscoffee.data;
-using coolbeansservices.Product;
+using coolbeans.services.Product;
 using coolbeanscoffee.services;
+using coolbeanscoffee.data.Models;
 
-namespace SolarCoffee.Services.Product {
-    public class ProductService : IProductService {
+namespace coolbeanscoffee.services.Product {
+    public class ProductService : IProductService
+    {
 
         private readonly CoolBeansDbContext _db;
 
