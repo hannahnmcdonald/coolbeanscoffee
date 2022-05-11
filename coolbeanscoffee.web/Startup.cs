@@ -7,6 +7,9 @@ using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json.Serialization;
 using coolbeanscoffee.data;
 using coolbeanscoffee.web;
+using Newtonsoft.Json;
+using Npgsql;
+using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 // using coolbeanscoffee.services.customer;
 
 namespace coolbeanscoffee.web
