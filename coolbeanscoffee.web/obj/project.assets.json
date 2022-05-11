@@ -1502,6 +1502,33 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "coolbeanscoffee.data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore": "2.2.0",
+          "Microsoft.AspNetCore.Hosting": "2.2.7",
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.5",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.5",
+          "Microsoft.Extensions.Configuration": "6.0.1",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Hosting": "6.0.1",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Configuration": "6.0.0",
+          "Newtonsoft.Json": "13.0.1",
+          "Npgsql": "6.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.4"
+        },
+        "compile": {
+          "bin/placeholder/coolbeanscoffee.data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/coolbeanscoffee.data.dll": {}
+        }
       }
     }
   },
@@ -3658,6 +3685,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "coolbeanscoffee.data/1.0.0": {
+      "type": "project",
+      "path": "../coolbeanscoffee.data/coolbeanscoffee.data.csproj",
+      "msbuildProject": "../coolbeanscoffee.data/coolbeanscoffee.data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3677,7 +3709,8 @@
       "Newtonsoft.Json >= 13.0.1",
       "Npgsql >= 6.0.4",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.4",
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "coolbeanscoffee.data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3710,7 +3743,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\hanna\\CoolBeansCoffee\\coolbeanscoffee.data\\coolbeanscoffee.data.csproj": {
+              "projectPath": "C:\\Users\\hanna\\CoolBeansCoffee\\coolbeanscoffee.data\\coolbeanscoffee.data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
