@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using coolbeanscoffee.data.models;
+using coolbeanscoffee.data.Models;
 
 namespace coolbeanscoffee.data {
     public class CoolBeansDbContext : IdentityDbContext {
         public CoolBeansDbContext() { }
 
-        public SolarDbContext(DbContextOptions options) : base(options) { }
+        public CoolBeansDbContext(DbContextOptions options) : base(options) { }
         
         public virtual DbSet<Customer> Customers { get; set; }
         public virtual DbSet<CustomerAddress> CustomerAddresses { get; set; }
