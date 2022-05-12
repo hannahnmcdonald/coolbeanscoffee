@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using coolbeanscoffee.data.Models;
 using coolbeanscoffee.web.ViewModels;
+using coolbeanscoffee.web.Serialization;
 
-namespace SolarCoffee.Web.Serialization {
+namespace coolbeanscoffee.web.Serialization {
     /// <summary>
     /// Handles mapping Order data models to and from related View Models
     /// </summary>
