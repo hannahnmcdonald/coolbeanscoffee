@@ -3,11 +3,11 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using coolbeanscoffee.services.Customer;
-using SolarCoffee.Web.Serialization;
+using coolbeanscoffee.web.Serialization;
 using coolbeanscoffee.web.ViewModels;
 using coolbeanscoffee.data.Models;
 
-namespace SolarCoffee.Web.Controllers {
+namespace coolbeanscoffee.web.Controllers {
     public class CustomerController : ControllerBase {
         private readonly ILogger<CustomerController> _logger;
         private readonly ICustomerService _customerService;

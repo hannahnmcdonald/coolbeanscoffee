@@ -6,7 +6,7 @@ using coolbeanscoffee.data;
 using coolbeanscoffee.services;
 using coolbeanscoffee.services.Customer;
 
-namespace SolarCoffee.Services.Customer {
+namespace coolbeanscoffee.services.Customer {
     public class CustomerService : ICustomerService {
         
         private readonly CoolBeansDbContext _db;

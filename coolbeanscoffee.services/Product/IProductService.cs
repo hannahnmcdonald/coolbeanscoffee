@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using coolbeanscoffee.services;
 using coolbeanscoffee.data;
 using coolbeanscoffee.data.Models;
+using coolbeanscoffee.services;
 
 namespace coolbeans.services.Product {
     public interface IProductService {

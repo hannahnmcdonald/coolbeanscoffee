@@ -2,7 +2,7 @@ using System;
 using coolbeanscoffee.data.Models;
 using coolbeanscoffee.web.ViewModels;
 
-namespace SolarCoffee.Web.Serialization {
+namespace coolbeanscoffee.web.Serialization {
     public static class CustomerMapper {
         /// <summary>
         /// Serializes a Customer data model into a CustomerModel view model

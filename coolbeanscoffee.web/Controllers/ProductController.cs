@@ -7,7 +7,7 @@ using coolbeanscoffee.web.ViewModels;
 using coolbeanscoffee.services;
 using coolbeans.services.Product;
 
-namespace SolarCoffee.Web.Controllers {
+namespace coolbeanscoffee.web.Controllers {
     
     [ApiController]
     public class ProductController : ControllerBase {
