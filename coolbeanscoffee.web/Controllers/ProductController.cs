@@ -1,10 +1,6 @@
-using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using coolbeanscoffee.services.Product;
 using coolbeanscoffee.web.Serialization;
 using coolbeanscoffee.web.ViewModels;
-using coolbeanscoffee.services;
 using coolbeans.services.Product;
 
 namespace coolbeanscoffee.web.Controllers {

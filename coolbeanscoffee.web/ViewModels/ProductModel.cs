@@ -1,5 +1,3 @@
-using System;
-
 namespace coolbeanscoffee.web.ViewModels {
     /// <summary>
     ///     Product entity DTO

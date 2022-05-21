@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using coolbeanscoffee.data.Models;
 
 namespace coolbeanscoffee.services.Order {

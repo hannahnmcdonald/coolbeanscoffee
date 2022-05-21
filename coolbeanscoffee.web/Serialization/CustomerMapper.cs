@@ -1,4 +1,3 @@
-using System;
 using coolbeanscoffee.data.Models;
 using coolbeanscoffee.web.ViewModels;
 

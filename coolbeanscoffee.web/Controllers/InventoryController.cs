@@ -1,11 +1,7 @@
-using System;
-using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using coolbeanscoffee.services.Inventory;
 using coolbeanscoffee.web.Serialization;
 using coolbeanscoffee.web.ViewModels;
-using coolbeanscoffee.web;
 
 namespace coolbeanscoffee.web.Controllers {
     [ApiController]

@@ -1,10 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using coolbeanscoffee.data;
-using coolbeanscoffee.services;
-using coolbeanscoffee.services.Customer;
 
 namespace coolbeanscoffee.services.Customer {
     public class CustomerService : ICustomerService {

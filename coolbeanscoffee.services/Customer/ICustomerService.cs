@@ -1,7 +1,3 @@
-using System.Collections.Generic;
-using coolbeanscoffee.data;
-using coolbeanscoffee.data.Models;  
-
 namespace coolbeanscoffee.services.Customer {
     public interface ICustomerService {
         List<data.Models.Customer> GetAllCustomers();

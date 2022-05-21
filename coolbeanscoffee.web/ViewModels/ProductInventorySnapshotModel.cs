@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 namespace coolbeanscoffee.web.ViewModels {
     /// <summary>
     /// Snapshot view model

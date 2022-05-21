@@ -1,5 +1,3 @@
-using System;
-
 namespace coolbeanscoffee.data.Models {
     public class ProductInventorySnapshot {
         public int Id { get; set; }

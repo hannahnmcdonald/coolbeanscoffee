@@ -1,14 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using coolbeanscoffee.data;
 using coolbeanscoffee.data.Models;
 using coolbeanscoffee.services.Inventory;
 using coolbeanscoffee.services.Product;
-using coolbeanscoffee.services.Order;
-using coolbeanscoffee.services;
 
 namespace coolbeanscoffee.services.Order {
     public class OrderService : IOrderService {

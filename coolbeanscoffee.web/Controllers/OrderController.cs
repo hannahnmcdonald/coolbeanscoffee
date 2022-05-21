@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using coolbeanscoffee.services.Customer;
 using coolbeanscoffee.services.Order;
 using coolbeanscoffee.web.Serialization;

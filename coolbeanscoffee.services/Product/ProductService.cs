@@ -1,9 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using coolbeanscoffee.data;
 using coolbeans.services.Product;
-using coolbeanscoffee.services;
 using coolbeanscoffee.data.Models;
 
 namespace coolbeanscoffee.services.Product {

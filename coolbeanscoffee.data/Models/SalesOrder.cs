@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 namespace coolbeanscoffee.data.Models {
     public class SalesOrder {
         public int Id { get; set; }

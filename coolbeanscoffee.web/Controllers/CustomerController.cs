@@ -1,11 +1,7 @@
-using System;
-using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using coolbeanscoffee.services.Customer;
 using coolbeanscoffee.web.Serialization;
 using coolbeanscoffee.web.ViewModels;
-using coolbeanscoffee.data.Models;
 
 namespace coolbeanscoffee.web.Controllers {
     public class CustomerController : ControllerBase {
