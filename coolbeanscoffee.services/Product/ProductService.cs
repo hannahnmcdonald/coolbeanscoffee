@@ -1,5 +1,4 @@
 using coolbeanscoffee.data;
-using coolbeans.services.Product;
 using coolbeanscoffee.data.Models;
 
 namespace coolbeanscoffee.services.Product {

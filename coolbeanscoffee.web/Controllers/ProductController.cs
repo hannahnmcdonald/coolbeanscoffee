@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using coolbeanscoffee.web.Serialization;
 using coolbeanscoffee.web.ViewModels;
-using coolbeans.services.Product;
+using coolbeanscoffee.services.Product;
 
 namespace coolbeanscoffee.web.Controllers {
     
