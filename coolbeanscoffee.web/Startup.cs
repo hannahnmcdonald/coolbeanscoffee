@@ -10,6 +10,10 @@ using coolbeanscoffee.web;
 using Newtonsoft.Json;
 using Npgsql;
 using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
+using coolbeanscoffee.services.Product;
+using coolbeanscoffee.services.Customer;
+using coolbeanscoffee.services.Inventory;
+using coolbeanscoffee.services.Order;
 // using coolbeanscoffee.services.customer;
 
 namespace coolbeanscoffee.web
@@ -34,8 +38,8 @@ namespace coolbeanscoffee.web
                 };
             });
 
-            services.AddDbContext<CoolBeansDbContext>(
-                opts => {
+            services.AddDbContext<CoolBeansDbContext>(opts =>
+            {
                 opts.EnableDetailedErrors();
                 opts.UseNpgsql(Configuration.GetConnectionString("coolbeans.dev"));
             });
