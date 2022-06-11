@@ -41,7 +41,7 @@ namespace coolbeanscoffee.web
             services.AddDbContext<CoolBeansDbContext>(opts =>
             {
                 opts.EnableDetailedErrors();
-                opts.UseNpgsql(Configuration.GetConnectionString("coolbeans.dev"));
+                opts.UseNpgsql(Configuration.GetConnectionString("coolbeanscoffee.dev"));
             });
 
             // services.AddTransient<IProductService, ProductService>();
